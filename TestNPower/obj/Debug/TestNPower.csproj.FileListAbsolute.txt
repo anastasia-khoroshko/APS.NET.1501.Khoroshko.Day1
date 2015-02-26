@@ -1,0 +1,7 @@
+c:\users\user\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestNPower\bin\Debug\TestNPower.dll
+c:\users\user\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestNPower\bin\Debug\TestNPower.pdb
+c:\users\user\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestNPower\bin\Debug\SqrtNPower.dll
+c:\users\user\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestNPower\bin\Debug\SqrtNPower.pdb
+c:\users\user\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestNPower\obj\Debug\TestNPower.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestNPower\obj\Debug\TestNPower.dll
+c:\users\user\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestNPower\obj\Debug\TestNPower.pdb
