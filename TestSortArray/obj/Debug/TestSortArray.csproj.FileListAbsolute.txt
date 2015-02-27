@@ -1,0 +1,7 @@
+C:\Users\User\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestSortArray\obj\Debug\TestSortArray.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestSortArray\bin\Debug\TestSortArray.dll
+C:\Users\User\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestSortArray\bin\Debug\TestSortArray.pdb
+C:\Users\User\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestSortArray\bin\Debug\SortArray.dll
+C:\Users\User\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestSortArray\bin\Debug\SortArray.pdb
+C:\Users\User\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestSortArray\obj\Debug\TestSortArray.dll
+C:\Users\User\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestSortArray\obj\Debug\TestSortArray.pdb
