@@ -1,0 +1,5 @@
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\HexFormatProvider\bin\Debug\HexFormatProvider.dll
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\HexFormatProvider\bin\Debug\HexFormatProvider.pdb
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\HexFormatProvider\obj\Debug\HexFormatProvider.csprojResolveAssemblyReference.cache
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\HexFormatProvider\obj\Debug\HexFormatProvider.dll
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\HexFormatProvider\obj\Debug\HexFormatProvider.pdb

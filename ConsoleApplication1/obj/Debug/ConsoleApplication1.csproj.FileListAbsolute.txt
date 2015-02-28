@@ -1,0 +1,8 @@
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\ConsoleApplication1\bin\Debug\HexFormatProvider.dll
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\ConsoleApplication1\bin\Debug\HexFormatProvider.pdb
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
