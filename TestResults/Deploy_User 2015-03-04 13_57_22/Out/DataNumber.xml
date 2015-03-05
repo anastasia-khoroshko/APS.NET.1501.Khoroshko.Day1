@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <TestCase>
+    <number>27</number>
+    <power>3</power>
+    <accurancy>0</accurancy>
+    <expected>3</expected>
+  </TestCase>
+  <TestCase>
+    <number>2</number>
+    <power>2</power>
+    <accurancy>0.001</accurancy>
+    <expected>1.4142135623746899</expected>
+  </TestCase>
+</TestCases>

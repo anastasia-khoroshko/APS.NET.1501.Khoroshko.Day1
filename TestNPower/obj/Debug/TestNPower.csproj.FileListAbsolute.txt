@@ -5,3 +5,11 @@ c:\users\user\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\
 c:\users\user\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestNPower\obj\Debug\TestNPower.csprojResolveAssemblyReference.cache
 c:\users\user\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestNPower\obj\Debug\TestNPower.dll
 c:\users\user\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\TestNPower\obj\Debug\TestNPower.pdb
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\TestNPower\bin\Debug\TestNPower.dll
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\TestNPower\bin\Debug\TestNPower.pdb
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\TestNPower\bin\Debug\SqrtNPower.dll
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\TestNPower\bin\Debug\SqrtNPower.pdb
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\TestNPower\obj\Debug\TestNPower.csprojResolveAssemblyReference.cache
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\TestNPower\obj\Debug\TestNPower.dll
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\TestNPower\obj\Debug\TestNPower.pdb
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\TestNPower\bin\Debug\DataNumber.xml

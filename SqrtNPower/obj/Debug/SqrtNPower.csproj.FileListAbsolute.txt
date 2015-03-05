@@ -3,3 +3,9 @@ c:\users\user\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\
 c:\users\user\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\SqrtNPower\obj\Debug\SqrtNPower.csprojResolveAssemblyReference.cache
 c:\users\user\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\SqrtNPower\obj\Debug\SqrtNPower.dll
 c:\users\user\documents\visual studio 2013\Projects\ASP.NET.1501.Khoroshko.Day1\SqrtNPower\obj\Debug\SqrtNPower.pdb
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\SqrtNPower\bin\Debug\SqrtNPower.dll
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\SqrtNPower\bin\Debug\SqrtNPower.pdb
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\SqrtNPower\obj\Debug\SqrtNPower.csprojResolveAssemblyReference.cache
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\SqrtNPower\obj\Debug\SqrtNPower.dll
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\SqrtNPower\obj\Debug\SqrtNPower.pdb
+E:\учеба)\4 курс\курсы\APS.NET.1501.Khoroshko.Day1\SqrtNPower\bin\Debug\DataNumber.xml
