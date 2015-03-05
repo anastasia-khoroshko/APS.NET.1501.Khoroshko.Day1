@@ -31,7 +31,7 @@ namespace HexFormatProvider
         }
 
 
-        public string Hex()
+        private string Hex()
         {
                 string result = "";
                 double temp = tempNumber;
@@ -60,21 +60,6 @@ namespace HexFormatProvider
                 return "F";
             else return (temp % 16).ToString();
         }
-        //public override string ToString()
-        //{
-        //    return this.ToString("h", CultureInfo.CurrentCulture);
-        //}
-
-        //public string ToString(string format)
-        //{
-        //    return this.ToString(format, CultureInfo.CurrentCulture);
-        //}
-
-        //public string ToString(string format, IFormatProvider provider)
-        //{
-        //    if (String.IsNullOrEmpty(format)) format = "h";
-        //    if (provider == null) provider = CultureInfo.CurrentCulture;
-        //    return Hex.ToString(provider) + "h";
-        //}
+       
     }
 }
