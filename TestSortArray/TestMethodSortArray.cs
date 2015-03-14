@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
+using SortArray;
 
 namespace TestSortArray
 {
@@ -18,7 +19,8 @@ namespace TestSortArray
             b[0] = new int[] { 2, 11, 0, -4 };
             b[1] = new int[] { 1, 2, 9 };
             b[2] = new int[] { 20, 6, 12, -5, 7 };
-            Assert.ReferenceEquals(SortArray.MethodsSortArray.IncreaseSort(a, new SortArray.MethodsSortArray.ComparisonArray(SortArray.MethodsSortArray.CompareSum)), b);
+            MethodsSortArray.Sort(a, new MethodsSortArray.ComparisonArray((int[] x, int[] y) => x.Sum().CompareTo(y.Sum())));
+            Assert.ReferenceEquals(a, b);
         }
         [TestMethod]
         public void TestSortBySumDecrease()
@@ -31,7 +33,8 @@ namespace TestSortArray
             b[2] = new int[] { 2, 11, 0, -4 };
             b[1] = new int[] { 1, 2, 9 };
             b[0] = new int[] { 20, 6, 12, -5, 7 };
-            Assert.ReferenceEquals(SortArray.MethodsSortArray.IncreaseSort(a, new SortArray.MethodsSortArray.ComparisonArray(SortArray.MethodsSortArray.CompareSum)), b);
+            MethodsSortArray.Sort(a, new MethodsSortArray.ComparisonArray((int[] x, int[] y) => y.Sum().CompareTo(x.Sum())));
+            Assert.ReferenceEquals(a, b);
         }
 
         [TestMethod]
@@ -43,9 +46,10 @@ namespace TestSortArray
             a[2] = new int[] { 2, 11, 0, -4 };
             int[][] b = new int[3][];
             b[0] = new int[] { 1, 2, 9 };
-            b[1] = new int[] { 2, 11, 0, -4 };            
+            b[1] = new int[] { 2, 11, 0, -4 };
             b[2] = new int[] { 20, 6, 12, -5, 7 };
-            Assert.ReferenceEquals(SortArray.MethodsSortArray.IncreaseSort(a, new SortArray.MethodsSortArray.ComparisonArray(SortArray.MethodsSortArray.CompareMaxElement)), b);
+            MethodsSortArray.Sort(a, new MethodsSortArray.ComparisonArray((int[] x, int[] y) => x.Max().CompareTo(y.Max())));
+            Assert.ReferenceEquals(a, b);
         }
 
         [TestMethod]
@@ -59,7 +63,8 @@ namespace TestSortArray
             b[2] = new int[] { 1, 2, 9 };
             b[1] = new int[] { 2, 11, 0, -4 };
             b[0] = new int[] { 20, 6, 12, -5, 7 };
-            Assert.ReferenceEquals(SortArray.MethodsSortArray.DecreaseSort(a, new SortArray.MethodsSortArray.ComparisonArray(SortArray.MethodsSortArray.CompareMaxElement)), b);
+            MethodsSortArray.Sort(a, new MethodsSortArray.ComparisonArray((int[] x, int[] y) => y.Max().CompareTo(x.Max())));
+            Assert.ReferenceEquals(a, b);
         }
 
         [TestMethod]
@@ -73,7 +78,8 @@ namespace TestSortArray
             b[2] = new int[] { 1, 2, 9 };
             b[1] = new int[] { 2, 11, 0, -4 };
             b[0] = new int[] { 20, 6, 12, -5, 7 };
-            Assert.ReferenceEquals(SortArray.MethodsSortArray.IncreaseSort(a, new SortArray.MethodsSortArray.ComparisonArray(SortArray.MethodsSortArray.CompareMinElement)), b);
+            MethodsSortArray.Sort(a, new MethodsSortArray.ComparisonArray((int[] x, int[] y) => x.Min().CompareTo(y.Min())));
+            Assert.ReferenceEquals(a, b);
         }
 
         [TestMethod]
@@ -87,7 +93,8 @@ namespace TestSortArray
             b[0] = new int[] { 1, 2, 9 };
             b[1] = new int[] { 2, 11, 0, -4 };
             b[2] = new int[] { 20, 6, 12, -5, 7 };
-            Assert.ReferenceEquals(SortArray.MethodsSortArray.DecreaseSort(a, new SortArray.MethodsSortArray.ComparisonArray(SortArray.MethodsSortArray.CompareMinElement)), b);
+            MethodsSortArray.Sort(a, new MethodsSortArray.ComparisonArray((int[] x, int[] y) => y.Min().CompareTo(x.Min())));
+            Assert.ReferenceEquals(a, b);
         }
     }
 }

@@ -10,72 +10,26 @@ namespace SortArray
     {
         public delegate int ComparisonArray(int[] x, int[] y);
 
-        public static int [][] IncreaseSort(int[][] array, ComparisonArray ca)
+        public static void Sort(int[][] array, ComparisonArray ca)
         {
+            if (array == null || ca == null) throw new ArgumentNullException("Invalid arguments");
             for(int i=0;i<array.Length;i++)
             {
                 for(int j=i;j<array.Length;j++)
                 {
-                    if(ca(array[i],array[j])==1)
+                    if(ca(array[i],array[j])>0)
                     {
-                        int[] temp=new int[array[i].Length];
-                        array[i].CopyTo(temp,0);
-                        array[i] = new int[array[j].Length];
-                        array[j].CopyTo(array[i], 0);
-                        array[j] = new int[temp.Length];
-                        temp.CopyTo(array[j], 0);
+                        Swap(ref array[i], ref array[j]);
                     }
                 }
             }
-            return array;
         }
 
-        public static  int[][] DecreaseSort(int[][] array, ComparisonArray ca)
+        private static void Swap(ref int[] x,ref int[] y)
         {
-            for (int i = 0; i < array.Length; i++)
-            {
-                for (int j = i; j < array.Length; j++)
-                {
-                    if (ca(array[i], array[j]) == -1)
-                    {
-                        int[] temp = new int[array[i].Length];
-                        array[i].CopyTo(temp, 0);
-                        array[i] = new int[array[j].Length];
-                        array[j].CopyTo(array[i], 0);
-                        array[j] = new int[temp.Length];
-                        temp.CopyTo(array[j], 0);
-                    }
-                }
-            }
-            return array;
+            int[] temp = x;
+            x = y;
+            y = temp;
         }
-        public static int CompareSum(int[] x,int[] y)
-        {
-            if (x.Select(s => s).Sum() > y.Select(s => s).Sum())
-                return 1;
-            else if (x.Select(s => s).Sum() < y.Select(s => s).Sum())
-                return -1;
-            else return 0;
-        }
-
-
-        public static int CompareMinElement(int[] x, int[] y)
-        {
-            if (x.Select(s => s).Min() > y.Select(s => s).Min())
-                return 1;
-            else if (x.Select(s => s).Min() < y.Select(s => s).Min())
-                return -1;
-            else return 0;
-        }
-
-        public static int CompareMaxElement(int[] x, int[] y)
-        {
-            if (x.Select(s => s).Max() > y.Select(s => s).Max())
-                return 1;
-            else if (x.Select(s => s).Max() < y.Select(s => s).Max())
-                return -1;
-            else return 0;
-        }
-
     }
 }
