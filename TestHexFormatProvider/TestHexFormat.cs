@@ -11,7 +11,7 @@ namespace TestHexFormatProvider
         public void TestHex1()
         {
 
-            Assert.AreEqual(String.Format(new HexFormatProvider.HexFormat(),"{0:h}",46877), "B71Dh");
+            Assert.AreEqual(String.Format(new HexFormatProvider.HexFormat(),"{0:H}",46877), "B71Dh");
         }
 
         [TestMethod]

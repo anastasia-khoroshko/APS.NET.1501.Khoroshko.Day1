@@ -23,10 +23,20 @@ namespace HexFormatProvider
 
         public string Format(string format, object number, IFormatProvider provider )
         {
-            if (number == null || format != "h")
+            bool supporFormat = false;
+            if (string.Compare(format, "h") == 0) supporFormat = true;
+            else if (string.Compare(format, "H") == 0) supporFormat = true;
+            if (number == null || !supporFormat)
                 return String.Format(parent, "{0:" + format + "}", number);
             if (provider == null) provider =CultureInfo.InvariantCulture;
-            tempNumber =(int)number;
+            try
+            {
+                tempNumber = (int)number;
+            }
+            catch(InvalidCastException ex)
+            {
+                throw;
+            }
             return Hex().ToString(provider)+"h";
         }
 
